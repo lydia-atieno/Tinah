@@ -191,7 +191,7 @@ html{
 /*work section*/
 #work .work{
     background-color: rgb(51, 46, 46);
-    min-height: 260vh;
+    min-height: 240vh;
 }
 #work h1{
     color: white;
@@ -209,7 +209,7 @@ html{
 }
 #contact .contact{
     flex-direction: column;
-    min-height: 130vh;
+    min-height: 120vh;
 }
 #contact .container{
     flex-direction: column;
