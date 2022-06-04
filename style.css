@@ -158,7 +158,7 @@ html{
 /*hands section*/
 #hands .hands{
     background-color: rgb(51, 46, 46);
-    min-height: 250vh;
+    min-height: 230vh;
 }
 #hands h1{
     color: white;
@@ -189,7 +189,7 @@ html{
 /*work section*/
 #work .work{
     background-color: rgb(51, 46, 46);
-    min-height: 280vh;
+    min-height: 260vh;
 }
 #work h1{
     color: white;
@@ -207,7 +207,7 @@ html{
 }
 #contact .contact{
     flex-direction: column;
-    min-height: 150vh;
+    min-height: 130vh;
 }
 #contact .container{
     flex-direction: column;
