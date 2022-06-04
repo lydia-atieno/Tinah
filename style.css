@@ -1,0 +1,354 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    text-align: right;
+}
+
+/*header section*/
+#header{
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: auto;
+}
+#header .header{
+    min-height: 8vh;
+    background-color: black;
+    background: linear-gradient(45deg,black,rgb(146, 132, 132),black);
+}
+#header .brand{
+    color: white;
+    font-size: 1.6rem;
+    letter-spacing: .2rem;
+    margin-left: 30px;
+    text-transform: uppercase;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#header .nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    max-width: 1300px;
+    padding: 0 10px;
+}
+#header .nav-list ul{
+    list-style: none;
+    position: absolute;
+    background-color: rgb(51, 46, 46);
+    left: 100%;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    overflow-x: hidden;
+    transition: .5s ease left;
+}
+#header .nav-list ul.active{
+    left: 0;
+}
+#header .nav-list ul a{
+    font-size: 1.5rem;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    display: block;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#header .nav-list ul a:hover{
+    color: black;
+}
+#header .hamburger{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30%;
+    width: 80px;
+    height: 80px;
+    margin-right: 10px;
+    display: flex;
+    z-index: 100;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+    /*border: 3px solid white;*/
+    transform: scale(.7);
+}
+#header .bar{
+    width: 50px;
+    height: 5px;
+    position: relative;
+    background: white;
+    border-radius: 10px;
+    z-index: -1;
+    box-shadow: ;
+    transition: all .5s ease-in-out;
+}
+#header .bar::before,
+#header .bar::after{
+    content: '';
+    position: absolute;
+    display: flex;
+    width: 50px;
+    height: 5px;
+    margin-right: 40px;
+    padding-right: px;
+    background: white;
+    border-radius: 5px;
+    box-shadow: ;
+    transition: all .5s ease-in-out;
+}
+#header .bar::before{
+    transform: translateY(-16px);
+}
+#header .bar::after{
+    transform: translateY(16px);
+}
+#header .hamburger.active .bar{
+    transform: translateX(-50px);
+    background: transparent;
+    box-shadow: none;
+}
+#header .hamburger.active .bar::before{
+    transform: rotate(45deg) translate(35px, -35px);
+    background: ;
+}
+#header .hamburger.active .bar::after{
+    transform: rotate(-45deg) translate(35px, 35px);
+}
+
+/*end header section*/
+
+/*title section*/
+#title .title{
+    background-color: black;
+}
+#title h1{
+    font-size: 0.8em;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#title .img{
+    margin-bottom: 14px;
+}
+/*end title section*/
+
+/*hands section*/
+#hands .hands{
+    background-color: rgb(51, 46, 46);
+    min-height: 250vh;
+}
+#hands h1{
+    color: white;
+    margin-bottom: 20px;
+    margin-top: 16px;
+    font-size: 1.7rem;
+    font-weight: 470;
+    letter-spacing: .2rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#hands li{
+    color: whitesmoke;
+    list-style: circle;
+    text-align: start;
+    margin-bottom: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#hands h2{
+    color: rgb(201, 195, 195);
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 500;
+    margin-top: 10px;
+}
+/*end hands section*/
+
+/*work section*/
+#work .work{
+    background-color: rgb(51, 46, 46);
+    min-height: 280vh;
+}
+#work h1{
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .2rem;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*end work section*/
+
+/*contact section*/
+#contact{
+    background-color: rgb(51, 46, 46);
+}
+#contact .contact{
+    flex-direction: column;
+    min-height: 150vh;
+}
+#contact .container{
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contact h1{
+    color: white;
+    letter-spacing: .2rem;
+    font-weight: 450;
+    margin-bottom: 16px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contact .contact-items{
+    width: 360px;
+    display: flex;
+    flex-direction: column;
+    
+}
+#contact .contact-item{
+    width: 80%;
+    height: 27vh;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0 rgb(181, 177, 177);
+    transition: .5s ease box-shadow;
+}
+#contact .contact-item:hover{
+    box-shadow: 0px 0px 5px 0 rgb(162, 153, 153);
+}
+#contact .icon{
+    width: 70px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    margin-top: 28px;
+}
+#contact .contact-info{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin-right: 120px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+#contact .contact-info h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+    margin-left: 120px;
+    color: whitesmoke;
+}
+#contact .contact-info h2{
+    font-size: 1.0rem;
+    font-weight: 400;
+    line-height: 2rem;
+    margin-left: 120px;
+    margin-bottom: 3px;
+    letter-spacing: 0.1rem;
+    color: whitesmoke;
+}
+/*end contact section*/
+
+/*footer section*/
+#footer{
+    background-color: black;
+}
+#footer .footer{
+    min-height: 40vh;
+}
+#footer .social-icon{
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-right: 30px;
+}
+#footer h2{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 20px;
+    margin-top: 25px;
+    letter-spacing: .1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#footer h2 span{
+    color: rgb(107, 100, 100);
+}
+#footer h3{
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 500;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#footer .social-item{
+    margin-right: 10px;
+}
+#footer p{
+    color: white;
+    font-size: 0.8rem;
+    margin-top: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/*end footer section*/
+
+@media only screen and (min-width: 1200px) {
+    /* Header */
+    #header .hamburger{
+        display: none;
+    }
+    #header .header{
+        max-height: 15vh;
+    }
+    #header .nav-list ul{
+        position: initial;
+        display: block;
+        height: auto;
+        width: fit-content;
+        background-color: transparent;
+    }
+    #header .nav-list ul li{
+        display: inline-block;
+    }
+    #header .nav-list ul li a{
+        color: white;
+        font-size: 1.8rem;
+        margin-bottom: 6px;
+    }
+    #header .nav-list ul li a:hover{
+        color: black;
+    }
+
+    #header .nav-list ul a::after{
+        display: none;
+    }
+
+    /* End Header */
+}
