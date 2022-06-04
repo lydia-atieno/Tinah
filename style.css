@@ -28,7 +28,7 @@ html{
 #header .header{
     min-height: 8vh;
     background-color: black;
-    background: linear-gradient(45deg,black,rgb(146, 132, 132),black);
+    background: linear-gradient(45deg,black,black);
 }
 #header .brand{
     color: white;
