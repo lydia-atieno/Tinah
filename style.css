@@ -148,10 +148,12 @@ html{
     color: white;
     font-weight: 500;
     margin-bottom: 18px;
+    margin-top: 11px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 #title .img{
     margin-bottom: 14px;
+    margin-top: 24px;
 }
 /*end title section*/
 
