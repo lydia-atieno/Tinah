@@ -1,12 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&display=swap');
+
+
+html{
+    font-family: 'Cherry Swash', cursive;
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /*font-family: Arial, Helvetica, sans-serif;*/
 }
-html{
-    scroll-behavior: smooth;
-}
+
 .container{
     align-items: center;
     justify-content: center;
@@ -36,7 +42,7 @@ html{
     letter-spacing: .2rem;
     margin-left: 30px;
     text-transform: uppercase;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }   
 #header .nav-bar{
     display: flex;
@@ -73,7 +79,7 @@ html{
     color: white;
     padding: 15px;
     display: block;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #header .nav-list ul a:hover{
     color: black;
@@ -149,7 +155,7 @@ html{
     font-weight: 500;
     margin-bottom: 18px;
     margin-top: 11px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #title .img{
     margin-bottom: 14px;
@@ -169,14 +175,14 @@ html{
     font-size: 1.7rem;
     font-weight: 470;
     letter-spacing: .2rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #hands li{
     color: whitesmoke;
     list-style: circle;
     text-align: start;
     margin-bottom: 15px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /*font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;*/
 }
 #hands h2{
     color: rgb(201, 195, 195);
@@ -199,7 +205,7 @@ html{
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 /*end work section*/
 
@@ -221,7 +227,7 @@ html{
     letter-spacing: .2rem;
     font-weight: 450;
     margin-bottom: 16px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #contact .contact-items{
     width: 360px;
@@ -299,7 +305,7 @@ html{
     margin-bottom: 20px;
     margin-top: 25px;
     letter-spacing: .1rem;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #footer h2 span{
     color: rgb(107, 100, 100);
@@ -308,7 +314,7 @@ html{
     color: white;
     font-size: 0.9rem;
     font-weight: 500;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 #footer .social-item{
     margin-right: 10px;
@@ -317,7 +323,7 @@ html{
     color: white;
     font-size: 0.8rem;
     margin-top: 35px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
 /*end footer section*/
 
