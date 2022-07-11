@@ -73,7 +73,7 @@ html{
     left: 0;
 }
 #header .nav-list ul a{
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     letter-spacing: .2rem;
     text-decoration: none;
     color: white;
@@ -161,20 +161,20 @@ html{
 }
 #title .img{
     margin-bottom: 14px;
-    margin-top: 24px;
+    margin-top: 64px;
 }
 /*end title section*/
 
 /*hands section*/
 #hands .hands{
     background-color: rgb(51, 46, 46);
-    min-height: 230vh;
+    min-height: 240vh;
 }
 #hands h1{
     color: white;
     margin-bottom: 20px;
     margin-top: 16px;
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     font-weight: 470;
     letter-spacing: .2rem;
     /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
@@ -203,7 +203,7 @@ html{
 }
 #work h1{
     color: white;
-    font-size: 1.6rem;
+    font-size: 1.7rem;
     font-weight: 500;
     letter-spacing: .2rem;
     margin-bottom: 16px;
@@ -228,6 +228,7 @@ html{
     color: white;
     letter-spacing: .2rem;
     font-weight: 450;
+    font-size: 1.7rem;
     margin-bottom: 16px;
     /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;*/
 }
