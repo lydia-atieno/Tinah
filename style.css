@@ -363,3 +363,75 @@ html{
 
     /* End Header */
 }
+@media only screen and (min-width:768px) {
+
+#title .title-items{
+    display: flex;
+}
+#title .title-item{
+    margin-right: 20px;
+    font-size: 1.2rem;
+}
+
+    /*hands*/
+#hands .hands{
+    min-height: 130vh;
+}
+#hands h2{
+    text-align: left;
+}
+#hands .skills-items{
+    display: flex;
+    flex-direction: row;
+}
+#hands .skills-item{
+    margin-right: 70px;
+}
+    /*End hands*/
+
+    /*work*/
+#work .work{
+    min-height: 90vh;
+}
+#work .work-items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 130px;
+    max-width: 1180px;
+}
+#work .work-item{
+    margin-right: px;
+    margin-left: px;
+    margin: 5px;
+    width: px;
+}
+#work .pic{
+    margin-left: px;
+    width: 170px;
+    height: px;
+}
+    /*End work*/
+
+    /*contacts*/
+#contact .contact{
+    min-height: 80vh;
+}
+#contact .contact-items{
+    display: flex;
+    flex-direction: row;
+    margin-right: 400px;
+}
+
+    /*End contacts*/
+
+    /*Footer*/
+#footer h2{
+    font-size: 1.5rem;
+}
+#footer h3{
+    font-size: 1rem;
+    font-weight: 200;
+}
+    /*End footer*/
+
+}
